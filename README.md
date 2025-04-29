@@ -1,7 +1,20 @@
-# lessen
+my_files.txt
+README.md
+my_files.txt
 
-Oefenen om naar de repo te pushen, mergen en pullen
 
-# Kijken hoe de READ.me file werkt
 
-Lorem Ipsum
+
+
+
+README.md
+some.txt
+my_files.txt
+README.md
+some.txt
+my_files.txt
+README.md
+some.txt
+my_files.txt
+README.md
+some.txt
