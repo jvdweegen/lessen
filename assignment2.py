@@ -9,7 +9,7 @@ def extract_provider(email):
     """Extract the domain from an email address"""
     if "@" in email:
         return email.split("@")[1]
-    return "Invalid emailadress which but was probably added to the dataset for this reason"
+    return "Invalid emailadress which was probably added to the dataset for this reason"
 
 def count_providers(entries):
     """Count how many times each email provider appears"""
