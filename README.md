@@ -2,7 +2,7 @@
 
 ## **Current contents**
 
-### Seperate folder for my argparse script
+### Seperate folder for my argparse script containing convert.py and user_data.csv
 
 ```
 Convert CSV to CSV or JSON with new formatting.
@@ -24,7 +24,7 @@ options:
 
 ### Assignment 1 & 2
 
-   assignment1.py uses data from user_data.csv to convert to a JSON format
+   assignment1.py uses data from user_data.csv to convert to a JSON format. <br>
    assignment2.py uses data from the converted file(user_data.json) for iteration
 
 
