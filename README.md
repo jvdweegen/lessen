@@ -4,19 +4,41 @@
 
 ### Seperate folder for my argparse script
 
-```md
-   assignment1.py uses data from user_data.csv to convert to a JSON format
-   assignment2.py uses data from the converted file(user_data.json) for iteration
+```
+Convert CSV to CSV or JSON with new formatting.
+
+positional arguments:
+  input_file     Input CSV file path
+  output_file    Output file path (without extension)
+
+options:
+  -h, --help     show this help message and exit
+  -d D           Input CSV delimiter (default: ';')
+  -t T           Output CSV delimiter (default: '|')
+  -f {csv,json}  Specify the output format (csv or json)
+  -v             Enable verbose logging
+  -H             Specify if input file contains headers
+  -s S           Number of lines to skip at the start of the file
+
 ```
 
+### Assignment 1 & 2
 
-```md
-assignment 3 contains:
+   assignment1.py uses data from user_data.csv to convert to a JSON format
+   assignment2.py uses data from the converted file(user_data.json) for iteration
+
+
+### Assignment 3
+
+```python3
+
 aaa.py
 bbb.py
 ccc.py
 ddd.py
 
-main.py to call the functions in the files through use of the os.system module
+The files listed above contain a function with a print() and a call
+
+main.py to invoke the 4 files with entrypoint()
 
 ```
