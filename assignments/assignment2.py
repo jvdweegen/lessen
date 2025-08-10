@@ -11,7 +11,7 @@ def extract_provider(email):
     return "Invalid emailadress which was probably added to the dataset for this reason"
 
 def count_providers(entries):
-    """Count how many times each email provider appears (pure Python)"""
+    """Count how many times each email provider appears"""
     provider_counts = {}
     for entry in entries:
         provider = extract_provider(entry["email"])
