@@ -1,5 +1,4 @@
 import json
-from collections import Counter
 
 def load_json(filepath="user_data.json"):
     with open(filepath, "r", encoding="utf-8") as file:
@@ -12,9 +11,15 @@ def extract_provider(email):
     return "Invalid emailadress which was probably added to the dataset for this reason"
 
 def count_providers(entries):
-    """Count how many times each email provider appears"""
-    providers = [extract_provider(entry["email"]) for entry in entries]
-    return Counter(providers)
+    """Count how many times each email provider appears (pure Python)"""
+    provider_counts = {}
+    for entry in entries:
+        provider = extract_provider(entry["email"])
+        if provider in provider_counts:
+            provider_counts[provider] += 1
+        else:
+            provider_counts[provider] = 1
+    return provider_counts
 
 def print_provider_counts(provider_counts):
     print("Email Provider Counts:")
