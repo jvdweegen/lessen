@@ -1,7 +1,7 @@
 import json
 
 def load_json(filepath="user_data.json"):
-    with open(filepath, "r", encoding="utf-8") as file:
+    with open(filepath, "r") as file:
         return json.load(file)
 
 def extract_provider(email):
