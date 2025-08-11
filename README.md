@@ -25,26 +25,28 @@ options:
 
 ## **script_collection contains**
 <br>
+
 ### Calculator.py
-```
+```python3
 Able to do basic calculations and round them
 ```
 <br>
 ### phonebook.py
-```
+```python3
 Creates a JSON dictionary upon first contact creation which you can append to, edit and remove contacts from.
 ```
+
 <br>
 <br>
 
 ## **Assignment Folder contains**
 <br>
 ### Assignment 1 & 2
-
+```python3
    assignment1.py uses data from user_data.csv to convert to a JSON format. <br>
    assignment2.py uses data from the converted file(user_data.json) for iteration.<br>
    Removed collections import from assignment2.py and changed the code to function without it.
-
+```
 
 ### Assignment 3
 
