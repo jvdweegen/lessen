@@ -25,7 +25,8 @@ options:
 ### Assignment 1 & 2
 
    assignment1.py uses data from user_data.csv to convert to a JSON format. <br>
-   assignment2.py uses data from the converted file(user_data.json) for iteration
+   assignment2.py uses data from the converted file(user_data.json) for iteration.<br>
+   Removed collections import from assignment2.py and changed the code to function without it.
 
 
 ### Assignment 3
@@ -46,7 +47,7 @@ main.py to invoke the 4 files with entrypoint()
 ### Assignment 4
 
 ```
-Used BTW instead of VAT. Defined rate in function parameter to use in the calculation
+Used BTW instead of VAT. Defined rate in function parameter to use in the calculation.
 
 ```
 
