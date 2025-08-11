@@ -22,6 +22,26 @@ options:
 
 ```
 
+
+**## script_collection contains**
+
+### Calculator.py
+```
+Able to do basic calculations and round them
+```
+<br>
+
+### phonebook.py
+```
+Creates a JSON dictionary upon first contact creation which you can append to, edit and remove contacts from.```
+
+<br>
+<br>
+<br>
+
+## **Assignment Folder contains**
+<br>
+
 ### Assignment 1 & 2
 
    assignment1.py uses data from user_data.csv to convert to a JSON format. <br>
