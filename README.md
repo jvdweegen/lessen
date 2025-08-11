@@ -37,7 +37,7 @@ Creates a JSON dictionary upon first contact creation which you can append to, e
 <br>
 <br>
 
-## **assignments Folder contains**
+## **assignments folder contains**
 <br>
 ### assignment 1 & 2
 ```python3
