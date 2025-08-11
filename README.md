@@ -37,9 +37,9 @@ Creates a JSON dictionary upon first contact creation which you can append to, e
 <br>
 <br>
 
-## **Assignment Folder contains**
+## **assignments Folder contains**
 <br>
-### Assignment 1 & 2
+### assignment 1 & 2
 ```python3
    assignment1.py uses data from user_data.csv to convert to a JSON format. <br>
    assignment2.py uses data from the converted file(user_data.json) for iteration.<br>
