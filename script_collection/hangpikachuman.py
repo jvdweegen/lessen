@@ -210,7 +210,6 @@ def mimikyu_haunt():
                             time.sleep(0.3)
                             print(mimikyu_art2)
                     except KeyboardInterrupt:
-                        while True:
                             pass
 
     else:
