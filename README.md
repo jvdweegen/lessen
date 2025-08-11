@@ -42,3 +42,16 @@ The files listed above contain a function with a print() and a call
 main.py to invoke the 4 files with entrypoint()
 
 ```
+
+### Assignment 4
+
+```
+Used BTW instead of VAT. Defined rate in function parameter to use in the calculation
+
+```
+
+###
+
+```
+Had to find a workout for the 2 spaces in the sample data. Used "  " to split for that reason. 
+```
