@@ -34,11 +34,8 @@ Able to do basic calculations and round them
 Creates a JSON dictionary upon first contact creation which you can append to, edit and remove contacts from.
 ```
 
-<br>
-<br>
-
 ## **assignments folder contains**
-<br>
+
 ### assignment 1 and 2
 
 ```python3
