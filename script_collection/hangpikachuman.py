@@ -268,7 +268,7 @@ def main():
             print("\nSorry, wrong guess...")
             print(f"{username}, you have {turns} lives left.")
             # Print pikachu hangman stage (10 turns max, show increasing stages)
-            stage_index = 5 - turns
+            stage_index = 6 - turns
             if stage_index > len(pikachu_hangman) - 1:
                 stage_index = len(pikachu_hangman) - 1
             print(pikachu_hangman[stage_index])
