@@ -24,13 +24,11 @@ options:
 
 
 ## **script_collection contains**
-<br>
 
-### Calculator.py
+### calculator.py
 ```python3
 Able to do basic calculations and round them
 ```
-<br>
 ### phonebook.py
 ```python3
 Creates a JSON dictionary upon first contact creation which you can append to, edit and remove contacts from.
